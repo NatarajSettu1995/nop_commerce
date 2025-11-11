@@ -57,4 +57,12 @@ public WebElement getloginpagevalidation()
 {
 	return loginpagevalidation;
 }
+
+@FindBy(xpath="//i[@class='nav-icon fas fa-book']//following-sibling::p")
+private WebElement catalog;
+
+public WebElement getCatalog()
+{
+	return catalog;
+}
 }
