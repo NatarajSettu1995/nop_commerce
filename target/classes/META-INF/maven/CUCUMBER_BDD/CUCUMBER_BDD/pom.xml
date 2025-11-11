@@ -65,10 +65,5 @@
     <version>4.13.2</version>
     <scope>test</scope>
 </dependency>
-    <dependency>
-    	<groupId>RestAssuredAPILearning</groupId>
-    	<artifactId>RestAssuredAPILearning</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
   </dependencies>
 </project>

@@ -29,6 +29,7 @@ public void user_click_on_login_button() {
 @Then("Page text should be {string}")
 public void page_text_should_be(String title){
 	Assert.assertEquals("page title doesnt match",po.getafterlogintitle().getText(), title);
+	po.getCatalog().click();
 }
 @When("User click on Logout Button")
 public void user_click_on_logout_button() {
